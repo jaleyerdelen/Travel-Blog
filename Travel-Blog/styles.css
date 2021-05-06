@@ -1,9 +1,9 @@
-body{
-     font-family: 'Roboto', sans-serif;
- }
- @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
- 
- .button {
+body {
+  font-family: "Roboto", sans-serif;
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+.button {
   display: inline-block;
   padding: 15px 25px;
   font-size: 24px;
@@ -18,10 +18,36 @@ body{
   box-shadow: 0 9px #999;
 }
 
-.button:hover {background-color: pink;}
+.button:hover {
+  background-color: pink;
+}
 
 .button:active {
   background-color: pink;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
+}
+.section {
+  padding: 3rem 0;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+.text {
+  background-color: #fff7f7;
+  line-height: 30px;
+}
+.section-center {
+  display: grid;
+  grid-template-columns: 56% 2fr 1fr;
+  justify-items: center;
+}
+.title {
+  text-align: center;
+  margin-bottom: 52px;
+}
+
+.btn-container {
+  margin-bottom: 65px;
+  text-align: center;
 }
