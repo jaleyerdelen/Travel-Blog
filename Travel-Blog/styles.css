@@ -51,3 +51,9 @@ body {
   margin-bottom: 65px;
   text-align: center;
 }
+.content {
+  display: none;
+}
+.content.active {
+  display: block;
+}
